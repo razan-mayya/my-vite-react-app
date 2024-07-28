@@ -1,0 +1,300 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    margin-bottom: 0px !important;
+}
+
+/* navBar style */
+.bgBlue {
+    background-color: #0F75BD;
+}
+
+.whiteColor {
+    color: white;
+}
+
+.par P {
+    margin: 16px 0px !important;
+}
+
+.par i {
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+/* alkawait library */
+span {
+    color: blue;
+}
+
+.KuwaitRow {
+    margin: 0px 0px 8% 0px;
+    width: 100%;
+}
+
+.p-5,
+.col {
+    padding: 5%;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 600;
+    width: fit-content;
+    margin: 50px auto;
+    padding: 50px 0;
+
+}
+
+
+.bluebtn {
+    border: none;
+    padding: 8px
+}
+
+.carousel-indicators button {
+    display: none;
+}
+
+.custom-prev-icon {
+    position: absolute;
+    left: 400%;
+    top: 102%;
+    width: 20px;
+    height: 20px
+}
+
+.custom-next-icon {
+    position: absolute;
+    right: 185%;
+    top: 102%;
+    width: 20px;
+    height: 20px
+}
+
+/* new kuwait library */
+.graycolor {
+    color: gray;
+    font-size: 12px;
+}
+
+.font500 {
+    font-weight: 500;
+}
+
+.imgNewKuwait {
+    height: 176px;
+    width: 100%
+}
+
+.fontSize20 {
+    font-size: 20px;
+}
+
+.imgNewKuwait1 {
+    height: 176px
+}
+
+.imgNewKuwait2 {
+    height: 385px;
+    width: 100%
+}
+
+.fontsize32 {
+    font-size: 32px;
+}
+
+/* new library */
+.conNewLib {
+    height: 100%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.smallPic {
+    width: 97px;
+    height: 97px;
+}
+
+
+
+.sliderImg {
+    width: 100%;
+    height: 150%;
+    image-rendering: pixelated;
+}
+
+.bgImg {
+    position: absolute;
+    right: 0px;
+    top: -20px;
+}
+
+.above {
+    position: relative;
+    z-index: 88;
+}
+
+.carousel-inner,
+.carousel-item,
+.carousel {
+    height: 100%;
+}
+
+/* CardSlider.css */
+.card-slider {
+    width: 80%;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.slick-dots {
+    display: none !important;
+}
+
+.slick-track {
+    position: relative;
+}
+
+.slick-next:before,
+.slick-prev:before {
+    content: none;
+}
+
+.slick-slider {
+    position: relative;
+}
+
+.slick-next {
+    right: 15%;
+
+}
+
+.slick-prev {
+    left: 70%;
+    z-index: 56;
+
+}
+
+.slick-next,
+.slick-prev {
+    top: -13%;
+    position: absolute;
+
+}
+
+/* popular section */
+.popularContainer {
+    background-color: #F3F3F5;
+}
+
+.arrowDiv {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+/* popular releases */
+.flexBetween {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexCol {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pos-rel-bottom {
+    position: relative;
+    bottom: 20px;
+}
+
+/* card style */
+.bggray {
+    background-color: #F3F3F5;
+}
+
+.cardCon {
+    padding: 64px 20px 20px 42px;
+    position: relative;
+    width: 97%;
+    min-height: 300px;
+    overflow: none
+}
+
+
+
+
+.iconCircle {
+    padding: 15px;
+    border-radius: 50%;
+    width: 75px;
+    background-color: white;
+    position: absolute;
+    top: -33px;
+    z-index: 7;
+    object-fit: contain
+}
+
+.titleCard {
+    font-weight: 450;
+    font-size: 20px
+}
+
+.paraCard {
+    font-weight: 400;
+}
+
+/* cardImg */
+.cardImgPara {
+    font-weight: 350;
+    font-style: italic;
+    color: #292624
+}
+
+/* HelpSection */
+.HelpSecCon {
+    background-color: #292624;
+    position: relative;
+    height: 350px
+}
+
+.HelpSecConPar {
+    padding: 5% 15%;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.CardSliderCon {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media(max-width:355px) {
+    .logoNav {
+        width: 70%;
+    }
+}
+
+.ContactUs::after {
+    content: ">";
+}
