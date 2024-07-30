@@ -5,7 +5,7 @@ const NavBar = () => {
     return (
         <div className='bgBlue mb-4'>
             <Container  >
-                <Row className=' d-flex justify-content-between navBar '>
+                <Row className=' d-flex justify-content-between navBar wrap'>
                     <Col className='d-flex gap-3 par' md={10} sm={12} xs={12}   >
                         <p className='whiteColor'>About The library</p>
                         <p className='whiteColor'>Library Halls</p>

@@ -10,19 +10,16 @@ import Navbar from 'react-bootstrap/Navbar';
 const BeforNav = () => {
     return (
 
-        <Navbar collapseOnSelect expand="lg" >
+        <Navbar collapseOnSelect expand="lg"  >
             <Container >
-                <div style={{
-                    width: "100%", justifyContent: 'space-between',
-                    alignItems: "center"
-                }} className='d-flex '>
-                    <Navbar.Brand href="#home"><img src={logo} className='logoNav' alt="logo" /></Navbar.Brand>
+                <div className=' div-beforeNav'>
+                    <Navbar.Brand href="#home"><img src={logo} className="logo" alt="logo" /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 </div>
 
                 <Navbar.Collapse id="responsive-navbar-nav" style={{ flexDirection: "row-reverse" }}>
                     <Nav >
-                        <div className='d-flex gap-2 align-items-center'>
+                        <div className='d-flex gap-2 align-items-center nav-p'>
                             <p>Search The</p>
                             <Dropdown >
                                 <Dropdown.Toggle style={{ backgroundColor: "white", color: "black", borderColor: "black", borderRadius: "0px" }} id="dropdown-basic">
@@ -50,7 +47,7 @@ const BeforNav = () => {
 
                             <Form className="d-flex" style={{ height: "fit-content", borderRadius: "0px" }}>
                                 <Form.Control
-                                    style={{ borderColor: "black", color: "red", borderRadius: "0px", minWidth: "285px" }}
+                                    style={{ borderColor: "black", color: "red", borderRadius: "0px", minWidth: "17vw" }}
                                     type="search"
                                     placeholder="Let’s Find What You’re Looking For"
                                     aria-label="Search"
