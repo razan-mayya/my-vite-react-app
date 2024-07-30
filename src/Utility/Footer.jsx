@@ -18,26 +18,26 @@ const Footer = () => {
                             <p lassName='graycolor'>Call us:</p>
                             <p>22929827</p>
                         </Col>
-                        <Col lg={3} md={6} sm={6}>
+                        <Col lg={3} md={6} sm={6} className='dis-flex'>
                             <p className='font500'>About</p>
                             <p className='graycolor'>About KNL</p>
                             <p className='graycolor'>Our Services</p>
                             <p className='graycolor'>Library Halls</p>
                             <p className='graycolor'>Releases</p>
                         </Col>
-                        <Col lg={3} md={6} sm={6}>
+                        <Col lg={3} md={6} sm={6} className='dis-flex'>
                             <p className='font500'>Useful links</p>
                             <p className='graycolor'>Event calendar</p>
                             <p className='graycolor'>Advanced Search</p>
                             <p className='graycolor'>Gallery</p>
                             <p className='graycolor'>Contact us</p>
                         </Col>
-                        <Col lg={3} md={6} sm={6} style={{ display: 'flex', flexDirection: 'column', justifyContent: "space-between" }}>
+                        <Col lg={3} md={6} sm={6} className='dis-flex '>
                             <div className='d-flex justify-content-between'>
                                 <img src={footerImg} alt="" style={{ width: "30%" }} />
                                 <img src={footerImg1} alt="" style={{ width: "65%" }} />
                             </div>
-                            <div className='d-flex justify-content-between'>
+                            <div className='d-flex justify-content-between mt-3' style={{ width: "100%" }}>
                                 <img src={footerIcon1} alt="" />
                                 <img src={footerIcon2} alt="" />
                                 <img src={footerIcon2} alt="" />
@@ -52,7 +52,7 @@ const Footer = () => {
                     <p className='graycolor'>Copyright © 2024, Kuwait National Library. KNL. All Rights Reserved.</p>
                     <NavDropdown
                         id="nav-dropdown-dark-example"
-                        title="Dropdown"
+                        title="English"
                         menuVariant="dark"
                     >
                         <NavDropdown.Item href="#action/3.1">English</NavDropdown.Item>

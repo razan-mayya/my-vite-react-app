@@ -12,7 +12,7 @@ import CarouselCom from '../Utility/CarouselCom'
 import CardImg from './CardImg'
 const PopularReleases = () => {
     return (
-        <div className='popularContainer'>
+        <div className='popularContainer px-5'>
             <p className='title'> Popular Releases From KNL</p>
             <Container>
                 <Row >
@@ -28,7 +28,7 @@ const PopularReleases = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col md={4} sm={6} className='mb-5'>
+                    <Col md={4} sm={6} className='mb-5 dis-flex'>
                         <CarouselCom prevIcon={<div className='arrowDiv'>
                             <i className="fa-solid fa-chevron-left fa-xs" style={{ color: "#000000" }}></i>
                         </div>}
@@ -39,6 +39,8 @@ const PopularReleases = () => {
                             heightImg="100%"
                             displayPagigation="none"
                         />
+                        <p className=' font500 fontSize20 mt-3' class>Samaritan art</p>
+                        <p className='paraCard'>taha hussein</p>
                     </Col>
                     <Col md={4} sm={6} className='mb-5'>
                         <div className='flexBetween'>

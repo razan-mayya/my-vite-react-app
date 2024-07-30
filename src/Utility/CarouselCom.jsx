@@ -19,7 +19,7 @@ const CarouselCom = ({ prevIcon, nextIcon, heightImg, displayPagigation }) => {
                         src={ele}
                         style={{ height: heightImg }}
                     />
-                    <p style={{ display: displayPagigation }}>{index} <span className="graycolor">\{arr.length}</span></p>
+                    <p style={{ display: displayPagigation }}>{index + 1} <span className="graycolor">\{arr.length}</span></p>
                 </Carousel.Item>
             ))}
 
